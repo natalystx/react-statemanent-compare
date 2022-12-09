@@ -1,0 +1,19 @@
+{
+  "name": "state-management-react-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm i && cd ./jotai && npm i && cd ../react-context && npm i && cd ../zustand && npm i",
+    "jotai": "cd ./jotai && npm run dev",
+    "react-context": "cd ./react-context && npm run dev",
+    "zustand": "cd ./zustand && npm run dev",
+    "start": "ttab -t 'Jotai' npm run jotai && ttab -t 'React-Context' npm run react-context && ttab -t 'Zustand' npm run zustand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ttab": "^0.7.3"
+  }
+}
