@@ -8,7 +8,7 @@
 
 `npm start`
 
-## start a individual project
+## start an individual project
 
 <b>Jotai </br></b>
 `npm run jotai`
