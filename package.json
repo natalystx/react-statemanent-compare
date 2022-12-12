@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "npm i && cd ./jotai && npm i && cd ../react-context && npm i && cd ../zustand && npm i",
+    "install-all": "ttab -t 'Jotai' npm run install-jotai && ttab -t 'React-context' npm run install-react-context &&  ttab -t 'Zustand' npm run install-zustand",
+    "install-jotai": "cd ./jotai && npm install",
+    "install-react-context": "cd ./react-context && npm install",
+    "install-zustand": "cd ./zustand && npm install",
     "jotai": "cd ./jotai && npm run dev",
     "react-context": "cd ./react-context && npm run dev",
     "zustand": "cd ./zustand && npm run dev",
