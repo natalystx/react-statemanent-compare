@@ -2,7 +2,8 @@
 
 ## Install packages
 
-`npm run install`
+first `npm install`
+then `npm run install-all`
 
 ## start projects
 
