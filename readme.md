@@ -1,4 +1,4 @@
-# Step to use
+# Steps to use
 
 ## Install packages
 
